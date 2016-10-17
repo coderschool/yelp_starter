@@ -7,5 +7,5 @@ target 'Yelp' do
 
     # Pods for Yelp
     pod 'AFNetworking', '~> 2.5'
-    pod 'BDBOAuth1Manager'
+    pod 'BDBOAuth1Manager', :git => 'https://github.com/minhchau273/BDBOAuth1Manager.git', :tag => '1.6.1'
 end

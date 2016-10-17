@@ -26,10 +26,22 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 2.5)
-  - BDBOAuth1Manager
+  - BDBOAuth1Manager (from `https://github.com/minhchau273/BDBOAuth1Manager.git`, tag `1.6.1`)
+
+EXTERNAL SOURCES:
+  BDBOAuth1Manager:
+    :git: https://github.com/minhchau273/BDBOAuth1Manager.git
+    :tag: 1.6.1
+
+CHECKOUT OPTIONS:
+  BDBOAuth1Manager:
+    :git: https://github.com/minhchau273/BDBOAuth1Manager.git
+    :tag: 1.6.1
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
   BDBOAuth1Manager: cd5a5872f355ca38180d52ca2dd844f0b0c84797
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 94fdcf5d74ab191155f71e46186436dc39c59537
+
+COCOAPODS: 1.0.0
